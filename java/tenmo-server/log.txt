@@ -1,0 +1,964 @@
+04/21/2021 08:55:05 PM Transfer{transferId=1, transferTypeID=0, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=10}
+04/21/2021 09:03:58 PM Transfer{transferId=1, transferTypeID=0, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=22}
+04/21/2021 09:07:26 PM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111}
+04/22/2021 08:17:21 AM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75}
+04/22/2021 08:30:53 AM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99}
+04/22/2021 10:08:59 AM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100}
+04/22/2021 10:23:18 AM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 10:27:00 AM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 10:30:05 AM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 10:33:57 AM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 10:33:57 AM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 10:42:59 AM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 10:42:59 AM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 10:48:58 AM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 10:48:58 AM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 11:01:44 AM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 11:01:44 AM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 12:17:34 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 12:17:34 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 12:18:44 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 12:18:44 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 02:36:35 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:36:35 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 02:38:59 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:38:59 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 02:40:13 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:40:13 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 02:40:55 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:40:55 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 02:41:49 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:41:49 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 02:42:20 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:42:20 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 02:43:32 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:43:32 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 02:46:49 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:46:49 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 02:53:26 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:53:26 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 02:56:55 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:56:55 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 02:57:25 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:57:25 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 02:58:34 PM Account{accountId=2001, userId=1001, balance=676.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 02:58:34 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 03:15:31 PM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50}
+04/22/2021 03:15:36 PM Account{accountId=2001, userId=1001, balance=626.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 03:15:36 PM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/22/2021 03:56:19 PM Account{accountId=2001, userId=1001, balance=626.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 03:56:19 PM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/22/2021 03:57:13 PM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362}
+04/22/2021 03:57:16 PM Account{accountId=2001, userId=1001, balance=264.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/22/2021 03:57:16 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/22/2021 04:03:09 PM Account{accountId=2001, userId=1001, balance=264.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/22/2021 04:03:09 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/22/2021 04:04:01 PM Account{accountId=2001, userId=1001, balance=264.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/22/2021 04:04:01 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/22/2021 04:05:10 PM Account{accountId=2001, userId=1001, balance=264.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/22/2021 04:05:10 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/22/2021 04:05:31 PM Account{accountId=2003, userId=1003, balance=1175.00}
+04/22/2021 04:05:31 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 04:05:31 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 04:05:31 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 04:06:16 PM Account{accountId=2007, userId=1007, balance=1000.00}
+04/22/2021 04:08:03 PM Account{accountId=2007, userId=1007, balance=1000.00}
+04/22/2021 04:08:21 PM Account{accountId=2001, userId=1001, balance=264.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/22/2021 04:08:21 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/22/2021 05:49:40 PM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64}
+04/22/2021 05:49:58 PM Account{accountId=2001, userId=1001, balance=200.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/22/2021 05:49:58 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/22/2021 05:52:42 PM Account{accountId=2001, userId=1001, balance=200.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3003, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3010, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3012, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3013, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3014, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3015, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3016, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3017, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3018, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3019, transferTypeId=1, transferStatusId=1, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/22/2021 05:52:42 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/22/2021 05:55:48 PM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500}
+04/22/2021 05:56:14 PM Account{accountId=2008, userId=1009, balance=564.00}
+04/22/2021 05:56:14 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/22/2021 05:56:14 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/22/2021 06:01:48 PM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99}
+04/22/2021 06:02:54 PM Account{accountId=2008, userId=1009, balance=465.00}
+04/22/2021 06:02:54 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/22/2021 06:02:54 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/22/2021 06:02:54 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/22/2021 06:13:38 PM Account{accountId=2008, userId=1009, balance=465.00}
+04/22/2021 06:13:38 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/22/2021 06:13:38 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/22/2021 06:13:38 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/22/2021 06:18:29 PM Account{accountId=2007, userId=1007, balance=1099.00}
+04/22/2021 06:18:29 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/22/2021 06:20:12 PM Account{accountId=2001, userId=1001, balance=700.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3003, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3010, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3012, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3013, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3014, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3015, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3016, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3017, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3018, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3019, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/22/2021 06:20:12 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/22/2021 06:24:35 PM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50}
+04/22/2021 06:25:51 PM Account{accountId=2009, userId=1010, balance=950.00}
+04/22/2021 06:25:51 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/22/2021 07:05:37 PM Account{accountId=2009, userId=1010, balance=950.00}
+04/22/2021 07:05:37 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/22/2021 07:06:03 PM Account{accountId=2010, userId=1011, balance=1050.00}
+04/22/2021 07:06:03 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/22/2021 07:06:41 PM Account{accountId=2001, userId=1001, balance=700.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3003, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3010, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3012, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3013, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3014, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3015, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3016, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3017, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3018, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3019, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/22/2021 07:06:41 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/22/2021 07:07:46 PM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=60}
+04/22/2021 07:07:50 PM Account{accountId=2008, userId=1009, balance=405.00}
+04/22/2021 07:07:50 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/22/2021 07:07:50 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/22/2021 07:07:50 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/22/2021 07:07:50 PM Transfer{transferId=3039, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=60.00}
+04/22/2021 07:08:12 PM Account{accountId=2001, userId=1001, balance=760.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3003, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3010, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=20.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3012, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3013, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3014, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3015, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3016, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3017, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3018, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3019, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/22/2021 07:08:12 PM Transfer{transferId=3039, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=60.00}
+04/22/2021 07:08:52 PM Account{accountId=2009, userId=1010, balance=950.00}
+04/22/2021 07:08:52 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/22/2021 07:10:04 PM Account{accountId=2010, userId=1011, balance=1050.00}
+04/22/2021 07:10:04 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 08:32:07 AM Account{accountId=2001, userId=1001, balance=760.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3003, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=20.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3010, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=20.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3012, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3013, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3014, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3015, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3016, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3017, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3018, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3019, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/23/2021 08:32:07 AM Transfer{transferId=3039, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=60.00}
+04/23/2021 08:53:32 AM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50}
+04/23/2021 09:00:41 AM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50}
+04/23/2021 09:08:56 AM Transfer{transferId=1, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2009, amount=50}
+04/23/2021 09:11:03 AM Account{accountId=2009, userId=1010, balance=900.00}
+04/23/2021 09:11:03 AM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 09:11:03 AM Transfer{transferId=3040, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 09:11:03 AM Transfer{transferId=3041, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 09:11:03 AM Transfer{transferId=3042, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 10:22:08 AM Account{accountId=2001, userId=1001, balance=760.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3003, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=20.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3010, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=20.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3012, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3013, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3014, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3015, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3016, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3017, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3018, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=30.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3019, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3031, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=99.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3033, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2002, amount=50.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/23/2021 10:22:08 AM Transfer{transferId=3039, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=60.00}
+04/23/2021 10:44:29 AM Account{accountId=2002, userId=1002, balance=1149.00}
+04/23/2021 10:44:56 AM Account{accountId=2009, userId=1010, balance=900.00}
+04/23/2021 10:44:56 AM Transfer{transferId=3042, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 10:48:44 AM Account{accountId=2009, userId=1010, balance=900.00}
+04/23/2021 10:48:44 AM Transfer{transferId=3042, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 10:50:08 AM Account{accountId=2009, userId=1010, balance=900.00}
+04/23/2021 10:50:20 AM Account{accountId=2010, userId=1011, balance=1100.00}
+04/23/2021 10:50:20 AM Transfer{transferId=3042, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 11:06:43 AM Account{accountId=2010, userId=1011, balance=1100.00}
+04/23/2021 11:06:43 AM Transfer{transferId=3042, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 11:12:09 AM Account{accountId=2010, userId=1011, balance=1100.00}
+04/23/2021 11:12:09 AM Transfer{transferId=3042, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 12:03:51 PM Account{accountId=2010, userId=1011, balance=1100.00}
+04/23/2021 12:03:51 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 12:04:00 PM Transfer{transferId=3042, transferTypeId=0, transferStatusId=2, accountFrom=0, accountTo=0, amount=null}
+04/23/2021 12:13:05 PM Account{accountId=2010, userId=1011, balance=1100.00}
+04/23/2021 12:13:05 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 12:13:11 PM Transfer{transferId=3042, transferTypeId=0, transferStatusId=2, accountFrom=0, accountTo=0, amount=null}
+04/23/2021 12:25:32 PM Account{accountId=2010, userId=1011, balance=1100.00}
+04/23/2021 12:25:32 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 12:25:40 PM Transfer{transferId=3042, transferTypeId=0, transferStatusId=2, accountFrom=0, accountTo=0, amount=null}
+04/23/2021 12:26:05 PM Account{accountId=2010, userId=1011, balance=1050.00}
+04/23/2021 12:26:05 PM Transfer{transferId=0, transferTypeId=0, transferStatusId=0, accountFrom=0, accountTo=0, amount=null}
+04/23/2021 12:28:09 PM Account{accountId=2010, userId=1011, balance=1050.00}
+04/23/2021 12:28:21 PM Account{accountId=2010, userId=1011, balance=1050.00}
+04/23/2021 12:29:23 PM Account{accountId=2009, userId=1010, balance=950.00}
+04/23/2021 12:40:20 PM Account{accountId=2010, userId=1011, balance=1050.00}
+04/23/2021 12:40:21 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 12:40:21 PM Transfer{transferId=3040, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 12:40:21 PM Transfer{transferId=3041, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 12:40:21 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 01:07:06 PM Account{accountId=2010, userId=1011, balance=1050.00}
+04/23/2021 01:07:06 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 01:07:06 PM Transfer{transferId=3040, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 01:07:06 PM Transfer{transferId=3041, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 01:07:06 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 01:07:27 PM Transfer{transferId=1, transferTypeId=1, transferStatusId=1, accountFrom=2009, accountTo=2010, amount=1900}
+04/23/2021 01:07:36 PM Account{accountId=2010, userId=1011, balance=1050.00}
+04/23/2021 01:07:36 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 01:07:36 PM Transfer{transferId=3040, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 01:07:36 PM Transfer{transferId=3041, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 01:07:36 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 01:07:36 PM Transfer{transferId=3043, transferTypeId=1, transferStatusId=1, accountFrom=2009, accountTo=2010, amount=1900.00}
+04/23/2021 01:07:56 PM Account{accountId=2009, userId=1010, balance=950.00}
+04/23/2021 01:07:56 PM Transfer{transferId=3043, transferTypeId=1, transferStatusId=1, accountFrom=2009, accountTo=2010, amount=1900.00}
+04/23/2021 03:27:02 PM Account{accountId=2003, userId=1003, balance=1175.00}
+04/23/2021 03:27:02 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/23/2021 03:27:02 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/23/2021 03:27:02 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/23/2021 03:27:45 PM Transfer{transferId=1, transferTypeId=1, transferStatusId=1, accountFrom=2004, accountTo=2003, amount=99}
+04/23/2021 03:27:50 PM Account{accountId=2003, userId=1003, balance=1175.00}
+04/23/2021 03:30:22 PM Account{accountId=2004, userId=1004, balance=1362.00}
+04/23/2021 03:30:22 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/23/2021 03:30:22 PM Transfer{transferId=3044, transferTypeId=1, transferStatusId=1, accountFrom=2004, accountTo=2003, amount=99.00}
+04/23/2021 03:37:40 PM Account{accountId=2003, userId=1003, balance=1175.00}
+04/23/2021 03:37:40 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/23/2021 03:37:40 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/23/2021 03:37:40 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/23/2021 03:37:40 PM Transfer{transferId=3044, transferTypeId=1, transferStatusId=1, accountFrom=2004, accountTo=2003, amount=99.00}
+04/23/2021 03:39:13 PM Account{accountId=2003, userId=1003, balance=1175.00}
+04/23/2021 03:39:13 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/23/2021 03:39:13 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/23/2021 03:39:13 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/23/2021 03:39:13 PM Transfer{transferId=3044, transferTypeId=1, transferStatusId=1, accountFrom=2004, accountTo=2003, amount=99.00}
+04/23/2021 03:44:02 PM Account{accountId=2003, userId=1003, balance=1175.00}
+04/23/2021 03:44:02 PM Transfer{transferId=3029, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=111.00}
+04/23/2021 03:44:02 PM Transfer{transferId=3030, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=75.00}
+04/23/2021 03:44:02 PM Transfer{transferId=3032, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2003, amount=100.00}
+04/23/2021 03:44:02 PM Transfer{transferId=3044, transferTypeId=1, transferStatusId=1, accountFrom=2004, accountTo=2003, amount=99.00}
+04/23/2021 03:44:31 PM Account{accountId=2003, userId=1003, balance=1175.00}
+04/23/2021 03:45:14 PM Account{accountId=2003, userId=1003, balance=1175.00}
+04/23/2021 03:46:04 PM Account{accountId=2004, userId=1004, balance=1362.00}
+04/23/2021 03:46:04 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/23/2021 03:46:04 PM Transfer{transferId=3044, transferTypeId=1, transferStatusId=1, accountFrom=2004, accountTo=2003, amount=99.00}
+04/23/2021 03:46:28 PM Account{accountId=2004, userId=1004, balance=1362.00}
+04/23/2021 03:46:28 PM Transfer{transferId=3044, transferTypeId=1, transferStatusId=1, accountFrom=2004, accountTo=2003, amount=99.00}
+04/23/2021 03:46:47 PM Account{accountId=2004, userId=1004, balance=1362.00}
+04/23/2021 03:46:47 PM Transfer{transferId=3044, transferTypeId=1, transferStatusId=1, accountFrom=2004, accountTo=2003, amount=99.00}
+04/23/2021 03:46:52 PM Transfer{transferId=3044, transferTypeId=0, transferStatusId=3, accountFrom=0, accountTo=0, amount=null}
+04/23/2021 03:46:56 PM Account{accountId=2004, userId=1004, balance=1263.00}
+04/23/2021 03:47:05 PM Account{accountId=2004, userId=1004, balance=1263.00}
+04/23/2021 03:47:05 PM Transfer{transferId=3034, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2004, amount=362.00}
+04/23/2021 03:47:05 PM Transfer{transferId=3044, transferTypeId=1, transferStatusId=3, accountFrom=2004, accountTo=2003, amount=99.00}
+04/23/2021 03:55:16 PM Account{accountId=2007, userId=1007, balance=1099.00}
+04/23/2021 03:55:16 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/23/2021 03:55:54 PM Transfer{transferId=1, transferTypeId=1, transferStatusId=1, accountFrom=2008, accountTo=2007, amount=1}
+04/23/2021 03:55:59 PM Account{accountId=2007, userId=1007, balance=1099.00}
+04/23/2021 03:56:07 PM Account{accountId=2007, userId=1007, balance=1099.00}
+04/23/2021 03:56:07 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/23/2021 03:56:07 PM Transfer{transferId=3045, transferTypeId=1, transferStatusId=1, accountFrom=2008, accountTo=2007, amount=1.00}
+04/23/2021 04:01:18 PM Account{accountId=2008, userId=1009, balance=405.00}
+04/23/2021 04:01:18 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/23/2021 04:01:18 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/23/2021 04:01:18 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/23/2021 04:01:18 PM Transfer{transferId=3039, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=60.00}
+04/23/2021 04:01:18 PM Transfer{transferId=3045, transferTypeId=1, transferStatusId=1, accountFrom=2008, accountTo=2007, amount=1.00}
+04/23/2021 04:01:50 PM Account{accountId=2008, userId=1009, balance=405.00}
+04/23/2021 04:01:50 PM Transfer{transferId=3045, transferTypeId=1, transferStatusId=1, accountFrom=2008, accountTo=2007, amount=1.00}
+04/23/2021 04:01:58 PM Transfer{transferId=3045, transferTypeId=0, transferStatusId=3, accountFrom=0, accountTo=0, amount=null}
+04/23/2021 04:02:32 PM Account{accountId=2008, userId=1009, balance=405.00}
+04/23/2021 04:02:39 PM Account{accountId=2008, userId=1009, balance=405.00}
+04/23/2021 04:02:39 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/23/2021 04:02:39 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/23/2021 04:02:39 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/23/2021 04:02:39 PM Transfer{transferId=3039, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=60.00}
+04/23/2021 04:02:39 PM Transfer{transferId=3045, transferTypeId=1, transferStatusId=3, accountFrom=2008, accountTo=2007, amount=1.00}
+04/23/2021 04:03:58 PM Account{accountId=2007, userId=1007, balance=1099.00}
+04/23/2021 04:03:58 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/23/2021 04:03:58 PM Transfer{transferId=3045, transferTypeId=1, transferStatusId=3, accountFrom=2008, accountTo=2007, amount=1.00}
+04/23/2021 04:04:39 PM Account{accountId=2008, userId=1009, balance=405.00}
+04/23/2021 04:04:39 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/23/2021 04:04:39 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/23/2021 04:04:39 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/23/2021 04:04:39 PM Transfer{transferId=3039, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=60.00}
+04/23/2021 04:04:39 PM Transfer{transferId=3045, transferTypeId=1, transferStatusId=3, accountFrom=2008, accountTo=2007, amount=1.00}
+04/23/2021 04:06:54 PM Account{accountId=2008, userId=1009, balance=405.00}
+04/23/2021 04:06:54 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/23/2021 04:06:54 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/23/2021 04:06:54 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/23/2021 04:06:54 PM Transfer{transferId=3039, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=60.00}
+04/23/2021 04:06:54 PM Transfer{transferId=3045, transferTypeId=1, transferStatusId=3, accountFrom=2008, accountTo=2007, amount=1.00}
+04/23/2021 04:07:06 PM Account{accountId=2008, userId=1009, balance=405.00}
+04/23/2021 04:11:04 PM Account{accountId=2008, userId=1009, balance=405.00}
+04/23/2021 04:11:04 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/23/2021 04:11:04 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/23/2021 04:11:04 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/23/2021 04:11:04 PM Transfer{transferId=3039, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=60.00}
+04/23/2021 04:11:04 PM Transfer{transferId=3045, transferTypeId=1, transferStatusId=3, accountFrom=2008, accountTo=2007, amount=1.00}
+04/23/2021 04:11:30 PM Account{accountId=2008, userId=1009, balance=405.00}
+04/23/2021 04:11:30 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/23/2021 04:11:30 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/23/2021 04:11:30 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/23/2021 04:11:30 PM Transfer{transferId=3039, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=60.00}
+04/23/2021 04:11:30 PM Transfer{transferId=3045, transferTypeId=1, transferStatusId=3, accountFrom=2008, accountTo=2007, amount=1.00}
+04/23/2021 04:12:40 PM Transfer{transferId=1, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2008, amount=9}
+04/23/2021 04:12:47 PM Account{accountId=2008, userId=1009, balance=405.00}
+04/23/2021 04:14:48 PM Account{accountId=2008, userId=1009, balance=405.00}
+04/23/2021 04:14:48 PM Transfer{transferId=3035, transferTypeId=2, transferStatusId=2, accountFrom=2001, accountTo=2008, amount=64.00}
+04/23/2021 04:14:48 PM Transfer{transferId=3036, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=500.00}
+04/23/2021 04:14:48 PM Transfer{transferId=3037, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2007, amount=99.00}
+04/23/2021 04:14:48 PM Transfer{transferId=3039, transferTypeId=2, transferStatusId=2, accountFrom=2008, accountTo=2001, amount=60.00}
+04/23/2021 04:14:48 PM Transfer{transferId=3045, transferTypeId=1, transferStatusId=3, accountFrom=2008, accountTo=2007, amount=1.00}
+04/23/2021 04:14:48 PM Transfer{transferId=3046, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2008, amount=9.00}
+04/23/2021 04:26:26 PM Account{accountId=2010, userId=1011, balance=1050.00}
+04/23/2021 04:26:26 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:26:26 PM Transfer{transferId=3040, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:26:26 PM Transfer{transferId=3041, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:26:26 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 04:26:26 PM Transfer{transferId=3043, transferTypeId=1, transferStatusId=1, accountFrom=2009, accountTo=2010, amount=1900.00}
+04/23/2021 04:26:26 PM Transfer{transferId=3046, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2008, amount=9.00}
+04/23/2021 04:30:09 PM Account{accountId=2010, userId=1011, balance=1050.00}
+04/23/2021 04:30:09 PM Transfer{transferId=3046, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2008, amount=9.00}
+04/23/2021 04:30:29 PM Account{accountId=2010, userId=1011, balance=1050.00}
+04/23/2021 04:30:29 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:30:29 PM Transfer{transferId=3040, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:30:29 PM Transfer{transferId=3041, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:30:29 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 04:30:29 PM Transfer{transferId=3043, transferTypeId=1, transferStatusId=1, accountFrom=2009, accountTo=2010, amount=1900.00}
+04/23/2021 04:30:29 PM Transfer{transferId=3046, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2008, amount=9.00}
+04/23/2021 04:31:03 PM Account{accountId=2010, userId=1011, balance=1050.00}
+04/23/2021 04:31:03 PM Transfer{transferId=3046, transferTypeId=1, transferStatusId=1, accountFrom=2010, accountTo=2008, amount=9.00}
+04/23/2021 04:31:16 PM Transfer{transferId=3046, transferTypeId=0, transferStatusId=2, accountFrom=0, accountTo=0, amount=null}
+04/23/2021 04:32:13 PM Account{accountId=2010, userId=1011, balance=1041.00}
+04/23/2021 04:32:21 PM Account{accountId=2010, userId=1011, balance=1041.00}
+04/23/2021 04:32:21 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:32:21 PM Transfer{transferId=3040, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:32:21 PM Transfer{transferId=3041, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:32:21 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 04:32:21 PM Transfer{transferId=3043, transferTypeId=1, transferStatusId=1, accountFrom=2009, accountTo=2010, amount=1900.00}
+04/23/2021 04:32:21 PM Transfer{transferId=3046, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2008, amount=9.00}
+04/23/2021 04:34:24 PM Account{accountId=2010, userId=1011, balance=1041.00}
+04/23/2021 04:34:24 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:34:24 PM Transfer{transferId=3040, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:34:24 PM Transfer{transferId=3041, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:34:24 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 04:34:24 PM Transfer{transferId=3043, transferTypeId=1, transferStatusId=1, accountFrom=2009, accountTo=2010, amount=999.00}
+04/23/2021 04:34:24 PM Transfer{transferId=3046, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2008, amount=9.00}
+04/23/2021 04:34:55 PM Account{accountId=2010, userId=1011, balance=1041.00}
+04/23/2021 04:34:55 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:34:55 PM Transfer{transferId=3040, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:34:55 PM Transfer{transferId=3041, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:34:55 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 04:34:55 PM Transfer{transferId=3043, transferTypeId=1, transferStatusId=1, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:34:55 PM Transfer{transferId=3046, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2008, amount=9.00}
+04/23/2021 04:37:28 PM Account{accountId=2010, userId=1011, balance=1041.00}
+04/23/2021 04:37:28 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:37:28 PM Transfer{transferId=3040, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:37:28 PM Transfer{transferId=3041, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:37:28 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 04:37:28 PM Transfer{transferId=3043, transferTypeId=1, transferStatusId=1, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:37:28 PM Transfer{transferId=3046, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2008, amount=9.00}
+04/23/2021 04:42:39 PM Account{accountId=2010, userId=1011, balance=1041.00}
+04/23/2021 04:42:39 PM Transfer{transferId=3038, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:42:39 PM Transfer{transferId=3040, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:42:39 PM Transfer{transferId=3041, transferTypeId=2, transferStatusId=2, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:42:39 PM Transfer{transferId=3042, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2009, amount=50.00}
+04/23/2021 04:42:39 PM Transfer{transferId=3043, transferTypeId=1, transferStatusId=1, accountFrom=2009, accountTo=2010, amount=50.00}
+04/23/2021 04:42:39 PM Transfer{transferId=3046, transferTypeId=1, transferStatusId=2, accountFrom=2010, accountTo=2008, amount=9.00}
+04/23/2021 04:54:32 PM Transfer{transferId=1, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1}
+04/23/2021 04:54:37 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 04:54:37 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 04:55:08 PM Account{accountId=2012, userId=1013, balance=1001.00}
+04/23/2021 04:55:08 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 04:55:53 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 04:55:53 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 04:56:06 PM Transfer{transferId=1, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1}
+04/23/2021 04:56:10 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 04:56:10 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 04:56:10 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 04:58:37 PM Account{accountId=2012, userId=1013, balance=1001.00}
+04/23/2021 04:58:37 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 04:58:37 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:00:15 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:00:15 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:00:15 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:05:51 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:06:04 PM Account{accountId=2012, userId=1013, balance=1001.00}
+04/23/2021 05:06:04 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:06:10 PM Transfer{transferId=3048, transferTypeId=0, transferStatusId=3, accountFrom=0, accountTo=0, amount=null}
+04/23/2021 05:06:14 PM Account{accountId=2012, userId=1013, balance=1001.00}
+04/23/2021 05:06:23 PM Account{accountId=2012, userId=1013, balance=1001.00}
+04/23/2021 05:06:23 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:06:23 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:06:54 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:06:54 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:06:54 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:17:57 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:17:57 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:17:57 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:19:29 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:19:29 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:19:29 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:21:49 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:21:49 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:21:49 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:23:38 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:23:38 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:23:38 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:25:29 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:25:29 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:25:29 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:27:43 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:27:43 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:27:43 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:28:57 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:28:57 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:28:57 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:32:05 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:32:05 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:32:05 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:33:06 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:33:06 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:33:06 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:35:34 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:35:34 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:35:34 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:37:14 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:37:14 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:37:14 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:39:45 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:39:45 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:39:45 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:41:28 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:41:28 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:41:28 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:42:36 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:42:36 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:42:36 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:51:54 PM Transfer{transferId=1, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1}
+04/23/2021 05:51:57 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:51:57 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:51:57 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:51:57 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:54:40 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 05:54:40 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 05:54:40 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 05:54:40 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 06:00:29 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 06:00:29 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 06:00:29 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 06:00:29 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 06:04:31 PM Account{accountId=2011, userId=1012, balance=999.00}
+04/23/2021 06:04:31 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 06:04:31 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 06:04:31 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 06:05:52 PM Account{accountId=2012, userId=1013, balance=1001.00}
+04/23/2021 06:05:52 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 06:05:52 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 06:05:52 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 06:07:26 PM Account{accountId=2012, userId=1013, balance=1001.00}
+04/23/2021 06:07:26 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 06:07:26 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 06:07:26 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 06:10:55 PM Account{accountId=2012, userId=1013, balance=1001.00}
+04/23/2021 06:10:55 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 06:11:10 PM Transfer{transferId=3049, transferTypeId=0, transferStatusId=2, accountFrom=0, accountTo=0, amount=null}
+04/23/2021 06:11:23 PM Account{accountId=2012, userId=1013, balance=1000.00}
+04/23/2021 06:11:23 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/23/2021 06:11:23 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/23/2021 06:11:23 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=2, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:12:00 PM Account{accountId=2011, userId=1012, balance=1000.00}
+04/24/2021 05:13:22 PM Account{accountId=2011, userId=1012, balance=1000.00}
+04/24/2021 05:13:42 PM Transfer{transferId=1, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=98}
+04/24/2021 05:13:44 PM Account{accountId=2011, userId=1012, balance=1000.00}
+04/24/2021 05:13:51 PM Account{accountId=2011, userId=1012, balance=1000.00}
+04/24/2021 05:13:51 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/24/2021 05:13:51 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:13:51 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=2, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:13:51 PM Transfer{transferId=3050, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=98.00}
+04/24/2021 05:14:30 PM Account{accountId=2011, userId=1012, balance=1000.00}
+04/24/2021 05:14:30 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/24/2021 05:14:30 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:14:30 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=2, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:14:30 PM Transfer{transferId=3050, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=98.00}
+04/24/2021 05:14:50 PM Account{accountId=2011, userId=1012, balance=1000.00}
+04/24/2021 05:14:50 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/24/2021 05:14:50 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:14:50 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=2, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:14:50 PM Transfer{transferId=3050, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=98.00}
+04/24/2021 05:15:17 PM Account{accountId=2012, userId=1013, balance=1000.00}
+04/24/2021 05:15:17 PM Transfer{transferId=3050, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=98.00}
+04/24/2021 05:16:01 PM Account{accountId=2012, userId=1013, balance=1000.00}
+04/24/2021 05:16:01 PM Transfer{transferId=3050, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=98.00}
+04/24/2021 05:16:15 PM Account{accountId=2012, userId=1013, balance=1000.00}
+04/24/2021 05:16:15 PM Transfer{transferId=3050, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=98.00}
+04/24/2021 05:17:14 PM Account{accountId=2012, userId=1013, balance=1000.00}
+04/24/2021 05:17:14 PM Transfer{transferId=3050, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=98.00}
+04/24/2021 05:17:24 PM Account{accountId=2012, userId=1013, balance=1000.00}
+04/24/2021 05:17:24 PM Transfer{transferId=3050, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2011, amount=98.00}
+04/24/2021 05:17:28 PM Transfer{transferId=3050, transferTypeId=0, transferStatusId=3, accountFrom=0, accountTo=0, amount=null}
+04/24/2021 05:17:31 PM Account{accountId=2012, userId=1013, balance=1000.00}
+04/24/2021 05:17:40 PM Account{accountId=2012, userId=1013, balance=1000.00}
+04/24/2021 05:17:40 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/24/2021 05:17:40 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:17:40 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=2, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:17:40 PM Transfer{transferId=3050, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=98.00}
+04/24/2021 05:19:09 PM Transfer{transferId=1, transferTypeId=1, transferStatusId=1, accountFrom=2011, accountTo=2012, amount=1.99}
+04/24/2021 05:19:12 PM Account{accountId=2012, userId=1013, balance=1000.00}
+04/24/2021 05:19:15 PM Account{accountId=2012, userId=1013, balance=1000.00}
+04/24/2021 05:19:15 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/24/2021 05:19:15 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:19:15 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=2, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:19:15 PM Transfer{transferId=3050, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=98.00}
+04/24/2021 05:19:15 PM Transfer{transferId=3051, transferTypeId=1, transferStatusId=1, accountFrom=2011, accountTo=2012, amount=1.99}
+04/24/2021 05:20:09 PM Account{accountId=2011, userId=1012, balance=1000.00}
+04/24/2021 05:20:09 PM Transfer{transferId=3051, transferTypeId=1, transferStatusId=1, accountFrom=2011, accountTo=2012, amount=1.99}
+04/24/2021 05:20:47 PM Transfer{transferId=3051, transferTypeId=0, transferStatusId=2, accountFrom=0, accountTo=0, amount=null}
+04/24/2021 05:22:10 PM Account{accountId=2013, userId=1016, balance=1000.00}
+04/24/2021 05:22:42 PM Transfer{transferId=1, transferTypeId=1, transferStatusId=1, accountFrom=2011, accountTo=2013, amount=1300}
+04/24/2021 05:22:46 PM Account{accountId=2013, userId=1016, balance=1000.00}
+04/24/2021 05:22:50 PM Account{accountId=2013, userId=1016, balance=1000.00}
+04/24/2021 05:22:50 PM Transfer{transferId=3052, transferTypeId=1, transferStatusId=1, accountFrom=2011, accountTo=2013, amount=1300.00}
+04/24/2021 05:23:10 PM Account{accountId=2011, userId=1012, balance=998.01}
+04/24/2021 05:23:10 PM Transfer{transferId=3052, transferTypeId=1, transferStatusId=1, accountFrom=2011, accountTo=2013, amount=1300.00}
+04/24/2021 05:23:42 PM Account{accountId=2011, userId=1012, balance=998.01}
+04/24/2021 05:23:42 PM Transfer{transferId=3052, transferTypeId=1, transferStatusId=1, accountFrom=2011, accountTo=2013, amount=1300.00}
+04/24/2021 05:24:09 PM Transfer{transferId=1, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2013, amount=500}
+04/24/2021 05:24:20 PM Account{accountId=2012, userId=1013, balance=1001.99}
+04/24/2021 05:24:20 PM Transfer{transferId=3053, transferTypeId=1, transferStatusId=1, accountFrom=2012, accountTo=2013, amount=500.00}
+04/24/2021 05:24:32 PM Transfer{transferId=3053, transferTypeId=0, transferStatusId=2, accountFrom=0, accountTo=0, amount=null}
+04/24/2021 05:27:54 PM Account{accountId=2013, userId=1016, balance=1500.00}
+04/24/2021 05:27:58 PM Account{accountId=2013, userId=1016, balance=1500.00}
+04/24/2021 05:27:58 PM Transfer{transferId=3052, transferTypeId=1, transferStatusId=1, accountFrom=2011, accountTo=2013, amount=1300.00}
+04/24/2021 05:27:58 PM Transfer{transferId=3053, transferTypeId=1, transferStatusId=2, accountFrom=2012, accountTo=2013, amount=500.00}
+04/24/2021 05:32:40 PM Account{accountId=2011, userId=1012, balance=998.01}
+04/24/2021 05:32:40 PM Transfer{transferId=3052, transferTypeId=1, transferStatusId=1, accountFrom=2011, accountTo=2013, amount=1300.00}
+04/24/2021 05:33:40 PM Account{accountId=2011, userId=1012, balance=998.01}
+04/24/2021 05:33:40 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/24/2021 05:33:40 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:33:40 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=2, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:33:40 PM Transfer{transferId=3050, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=98.00}
+04/24/2021 05:33:40 PM Transfer{transferId=3051, transferTypeId=1, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.99}
+04/24/2021 05:33:40 PM Transfer{transferId=3052, transferTypeId=1, transferStatusId=1, accountFrom=2011, accountTo=2013, amount=1300.00}
+04/24/2021 05:34:45 PM Transfer{transferId=1, transferTypeId=1, transferStatusId=1, accountFrom=2013, accountTo=2011, amount=10}
+04/24/2021 05:35:02 PM Account{accountId=2013, userId=1016, balance=1500.00}
+04/24/2021 05:35:02 PM Transfer{transferId=3054, transferTypeId=1, transferStatusId=1, accountFrom=2013, accountTo=2011, amount=10.00}
+04/24/2021 05:35:37 PM Transfer{transferId=3054, transferTypeId=0, transferStatusId=3, accountFrom=0, accountTo=0, amount=null}
+04/24/2021 05:35:50 PM Account{accountId=2011, userId=1012, balance=998.01}
+04/24/2021 05:35:50 PM Transfer{transferId=3047, transferTypeId=2, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.00}
+04/24/2021 05:35:50 PM Transfer{transferId=3048, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:35:50 PM Transfer{transferId=3049, transferTypeId=1, transferStatusId=2, accountFrom=2012, accountTo=2011, amount=1.00}
+04/24/2021 05:35:50 PM Transfer{transferId=3050, transferTypeId=1, transferStatusId=3, accountFrom=2012, accountTo=2011, amount=98.00}
+04/24/2021 05:35:50 PM Transfer{transferId=3051, transferTypeId=1, transferStatusId=2, accountFrom=2011, accountTo=2012, amount=1.99}
+04/24/2021 05:35:50 PM Transfer{transferId=3052, transferTypeId=1, transferStatusId=1, accountFrom=2011, accountTo=2013, amount=1300.00}
+04/24/2021 05:35:50 PM Transfer{transferId=3054, transferTypeId=1, transferStatusId=3, accountFrom=2013, accountTo=2011, amount=10.00}
